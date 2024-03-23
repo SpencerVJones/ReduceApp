@@ -1,10 +1,14 @@
 # ReduceApp
 Simple iOS application developed as part of an exercise to practice working with multiple view controllers, text fields, delegates, and segues in Swift. 
 
-## The app consists of two view controllers:
+## Features:
+- Seamless keyboard navigation between text fields.
+- Validation to ensure all text fields are filled before proceeding.
+- Data passing between view controllers using segues.
+- Implementation of the reduce method to concatenate strings.
+- Clean and user-friendly interface.
 
 ### First View Controller:
-
 - Includes six text fields where users can input text.
 - Implements the UITextFieldDelegate protocol to manage keyboard navigation and dismissal.
 - Provides a button to segue to the Second View Controller.
@@ -17,22 +21,27 @@ Simple iOS application developed as part of an exercise to practice working with
 - Reduce: Reduces the array of strings from the First View Controller into a single string using the reduce method, sends it back to the First View Controller, and dismisses itself.
 - Utilizes segues and passing data between view controllers.
 
-## Features:
-- Seamless keyboard navigation between text fields.
-- Validation to ensure all text fields are filled before proceeding.
-- Data passing between view controllers using segues.
-- Implementation of the reduce method to concatenate strings.
-- Clean and user-friendly interface.
+
+## Usage
+1. Clone the repository to your local machine.
+2. Launch the app on an iOS device or simulator.
+3. Input data into the six text fields on the main screen.
+4. Tap the "Done" button to proceed.
+5. View the entered data in the SecondViewController.
+6. Tap the "Reduce" button to combine the data into a single string.
+7. View the combined string back in the ViewController.
+
 
 ## Technologies Used:
-- Swift
-- UIKit framework
-- Xcode IDE
+- **Swift**: Primary programming language for iOS app development.
+- **UIKit**: Framework for building user interfaces in iOS apps.
+- **Xcode**: Integrated development environment (IDE) used for iOS app development.
 
-## Getting Started:
-- Clone the repository to your local machine.
-- Open the project in Xcode.
-- Build and run the app on the iOS Simulator or a physical device.
 
-## Contributing:
-- Contributions are welcome! If you find any bugs or have suggestions for improvement, please open an issue or submit a pull request.
+## Contributing
+Contributions are welcome! 
+
+### You can contribute by:
+-  Reporting bugs
+-  Suggesting new features
+-  Submitting pull requests to improve the codebase
